@@ -1,0 +1,15 @@
+PROG FJU LYON V 4.4.0
+
+PROGRAMME FORCE JEUNE UNIVERSELLE LYON
+
+Modification apporté:::
+	- Correction de L'Identificateure (Interface et CODE)
+	- Correction de La Présentation (Verset, Info et Evnement(Interface de Saisie))
+	- Correction de L'ajout/Enlever (Interface et CODE)
+	- Correction Minuteur 1 (CODE ET CONTROLE)
+
+Ce programme est strictement et exclusivement réservé a la FJU LYON(Force Jeune universelle Lyon) Pour leur activité du samedi.
+Ainsi l'utilisation de ce programme par tout autre personne ou groupe de personne est strictement interdite et peut etre sanctionné d'amende.
+
+Copyright FJU LYON © / Sept 2018
+by S MARONE

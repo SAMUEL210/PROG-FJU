@@ -1,0 +1,33 @@
+Creer app Mac avec Python
+
+- Installer Py2app // python -m pip install py2app
+
+- Creer le .app:::
+
+		::: creer Setup.py contenant:::
+
+from setuptools import setup
+
+APP = ['NomDeVotreAppli.py']
+
+DATA_FILES = ['rep1', 'rep2', 'readme.txt']
+
+OPTIONS = {'argv_emulation': True}
+
+setup(
+    app=APP,
+    data_files=DATA_FILES,
+    options={'py2app': OPTIONS},
+    setup_requires=['py2app'],
+)
+
+
+executer la commande :: python Setup.py py2app
+
+*** fichier.app se trouve dans dist 
+
+- Transformer le .app en dmg:::
+
+Aller dans le repertoire dist et executer commande :(native sur Mac OSX)
+
+hdiutil create -imagekey zlib-level=9 -srcfolder 'NomDeVotreAppli'.app 'NomDeVotreAppli'.dmg
